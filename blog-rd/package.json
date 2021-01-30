@@ -1,0 +1,39 @@
+{
+  "name": "blog-rd",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "nodemon bin/www",
+    "prd": "pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "debug": "^4.1.1",
+    "ejs": "^3.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^6.1.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.3.1",
+    "mysql": "^2.18.1",
+    "pug": "^2.0.3",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
